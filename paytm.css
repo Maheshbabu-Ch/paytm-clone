@@ -3,6 +3,12 @@ a{
     text-decoration: none !important;
     color: black;
 }
+body
+{
+    max-width: 1500px !important;
+    width:1500px !important;
+}
+
 h1 p {cursor:crosshair}
 #dpa {cursor:pointer}
 header {position: sticky;top:0;z-index: 10;}
@@ -58,8 +64,10 @@ header {position: sticky;top:0;z-index: 10;}
 }
 .section1{
     display: flex;
+    justify-content: space-between !important;
     padding: 2% 5% 2% 0%;
     margin-left: 1%;
+    max-width: 1500px !important;
 }
 #left1
 {
@@ -76,7 +84,7 @@ header {position: sticky;top:0;z-index: 10;}
     padding: 5% 0% 5% 5%;
 }
 #left1 img {width:80px;}
-#right1 img {width: 520px; position: absolute; right: 0;}
+#right1 img {width: 520px; }
 #left1 h1{font-size: 50px;font-weight: bolder;margin-bottom: 3%;}
 #dpa
 {
